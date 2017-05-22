@@ -1,0 +1,87 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  min-height:100%; 
+  min-height:100vh;  
+}
+
+html{
+	min-height:100%;
+	min-height:100vh;
+}
+
+.jumbotron{
+
+text-align: center;
+padding-bottom: 0px;
+padding-top: 10px;
+
+margin-bottom: 0px;
+margin-top:0px;
+
+
+width:100%;
+min-height:100%;
+  min-height: 91.5vh;
+  background:#006699;
+  display:table;
+
+color:white;
+
+position: relative;
+    background: #000 url("../images/jumbotron1.jpg") center center;
+    
+    background-size: cover;
+    overflow: hidden;
+}
+
+.jumbotron h1 {
+	
+margin-bottom: 20px;
+padding:20px;
+
+}
+.jumbotron h3 {
+margin-top:20px;	
+margin-bottom: 20px;
+}
+
+.navbar-brand {
+	padding: 5px 0px 0px 0px;	
+}
+
+
+
+nav.navbar.navbar-inverse.navbar-static-top {
+	background-color: white;
+	margin-bottom:0px;
+	border-width:0px;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+	color:#337ab7;
+}
+
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    text-decoration: none;
+    color:red;
+}
+
+.navbar-inverse .navbar-toggle {
+	background-color:#4b6fa8;
+	border-color:#4b6fa8; 
+}
+
+.navbar-inverse .navbar-toggle:hover {
+	background-color:red; 
+}
+
+.navbar-inverse .navbar-collapse{
+	border-color:#4b6fa8;
+}
+
+footer{
+	text-align: center;
+}
